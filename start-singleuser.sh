@@ -42,4 +42,4 @@ NOTEBOOK_BIN="jupyterhub-singleuser"
 echo "debug"
 echo "$NOTEBOOK_BIN $NOTEBOOK_ARGS $@"
 
-. /usr/local/bin/start.sh $NOTEBOOK_BIN $NOTEBOOK_ARGS "$@"
+. /usr/local/bin/start.sh "$NOTEBOOK_BIN" "$NOTEBOOK_ARGS" "$@"
